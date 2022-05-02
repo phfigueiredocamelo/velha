@@ -3,7 +3,7 @@ Simple Tic-tac-toe game running with PHP cli
 
 # Run the game:
 * Download docker 
-* Inside project folder run `docker build -t velha:1.0` to build image;
+* Inside project folder run `docker build -t velha:1.0 .` to build image;
 * Run `docker run -it velha:1.0 bash` to start container
 * Run the game with `php game.php`
 
