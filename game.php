@@ -30,90 +30,45 @@ while (true) {
     $map[$choices[1]][$choices[2]] = $choices[0];
 
     //check horizontal X
-    if ($map[0][0] == 'x' && $map[0][1] == 'x' && $map[0][2] == 'x') {
-        printGame($map, 'X');
+    if ($map[0][0] == $choices[0] && $map[0][1] == $choices[0] && $map[0][2] == $choices[0]) {
+        printGame($map, $choices[0]);
         break;
     }
 
-    if ($map[1][0] == 'x' && $map[1][1] == 'x' && $map[1][2] == 'x') {
-        printGame($map, 'X');
+    if ($map[1][0] == $choices[0] && $map[1][1] == $choices[0] && $map[1][2] == $choices[0]) {
+        printGame($map, $choices[0]);
         break;
     }
 
-    if ($map[2][0] == 'x' && $map[2][1] == 'x' && $map[2][2] == 'x') {
-        printGame($map, 'X');
+    if ($map[2][0] == $choices[0] && $map[2][1] == $choices[0] && $map[2][2] == $choices[0]) {
+        printGame($map, $choices[0]);
         break;
     }
 
     //check vertical X
-    if ($map[0][0] == 'x' && $map[1][0] == 'x' && $map[2][0] == 'x') {
-        printGame($map, 'X');
+    if ($map[0][0] == $choices[0] && $map[1][0] == $choices[0] && $map[2][0] == $choices[0]) {
+        printGame($map, $choices[0]);
         break;
     }
 
-    if ($map[0][1] == 'x' && $map[1][1] == 'x' && $map[2][1] == 'x') {
-        printGame($map, 'X');
+    if ($map[0][1] == $choices[0] && $map[1][1] == $choices[0] && $map[2][1] == $choices[0]) {
+        printGame($map, $choices[0]);
         break;
     }
 
-    if ($map[0][2] == 'x' && $map[1][2] == 'x' && $map[2][2] == 'x') {
-        printGame($map, 'X');
+    if ($map[0][2] == $choices[0] && $map[1][2] == $choices[0] && $map[2][2] == $choices[0]) {
+        printGame($map, $choices[0]);
         break;
     }
 
     //check diagonal X
-    if ($map[0][0] == 'x' && $map[1][1] == 'x' && $map[2][2] == 'x') {
-        printGame($map, 'X');
+    if ($map[0][0] == $choices[0] && $map[1][1] == $choices[0] && $map[2][2] == $choices[0]) {
+        printGame($map, $choices[0]);
         break;
     }
 
-    if ($map[0][2] == 'x' && $map[1][1] == 'x' && $map[2][0] == 'x') {
-        printGame($map, 'X');
-        break;
-    }
-
-    // Letra O
-
-    //check horizontal o
-    if ($map[0][0] == 'o' && $map[0][1] == 'o' && $map[0][2] == 'o') {
-        printGame($map, 'o');
-        break;
-    }
-
-    if ($map[1][0] == 'o' && $map[1][1] == 'o' && $map[1][2] == 'o') {
-        printGame($map, 'o');
-        break;
-    }
-
-    if ($map[2][0] == 'o' && $map[2][1] == 'o' && $map[2][2] == 'o') {
-        printGame($map, 'o');
-        break;
-    }
-
-    //check vertical o
-    if ($map[0][0] == 'o' && $map[1][0] == 'o' && $map[2][0] == 'o') {
-        printGame($map, 'o');
-        break;
-    }
-
-    if ($map[0][1] == 'o' && $map[1][1] == 'o' && $map[2][1] == 'o') {
-        printGame($map, 'o');
-        break;
-    }
-
-    if ($map[0][2] == 'o' && $map[1][2] == 'o' && $map[2][2] == 'o') {
-        printGame($map, 'o');
-        break;
-    }
-
-    //check diagonal o
-    if ($map[0][0] == 'o' && $map[1][1] == 'o' && $map[2][2] == 'o') {
-        printGame($map, 'o');
-        break;
-    }
-
-    if ($map[0][2] == 'o' && $map[1][1] == 'o' && $map[2][0] == 'o') {
-        printGame($map, 'o');
+    if ($map[0][2] == $choices[0] && $map[1][1] == $choices[0] && $map[2][0] == $choices[0]) {
+        printGame($map, $choices[0]);
         break;
     }
 }
